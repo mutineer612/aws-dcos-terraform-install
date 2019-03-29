@@ -30,7 +30,7 @@ aws_secret_access_key = XYZ
 ### Setup SSH keypair
 Create a new ec2 SSH keypair in AWS.  Download the .pem file and copy into the `$HOME/.ssh` directory.  
 
-Chmod the pem file so only the owner/user had read permissions
+Chmod the pem file so only the owner/user has read permissions
 ```
 $ chmod 400 <filename>.pem
 ```

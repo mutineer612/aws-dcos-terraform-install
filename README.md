@@ -60,7 +60,9 @@ ssh-add ~/.ssh/aws/northlogic.pem
 ```
   
 ## Usage
-Copy the `main.tf` to a new directory i.e. `$HOME/Mesosphere` and use terraform to install Mesosphere
+1. Edit the `main.tf` file and copy to a working directory, i.e. `$HOME/Mesosphere` and use terraform to install Mesosphere
+2. Change the `cluster_name` variable to give your cluster a name.  Do not use "." characters in the name as they are not supported. 
+3. Change the `aws_key_name` variable to match the name of your SSH keypair created in AWS.  In this example the .pem file has the same name "northlogic" as the AWS SSH keypair for consistency.  
 
 Initialize the configuration
 ```

@@ -5,8 +5,8 @@ This Terraform script is used to install and manage Mesosphere on AWS.  The scri
 To use this script you will need an AWS Account, AWS CLI, and Terraform
 1. Setup an AWS account
 2. Install Python3
-3. Install AWS CLI using PIP
-4. Install Terraform using PIP
+3. Install AWS CLI 
+4. Install Terraform 
 5. Setup ec2 SSH keypair using AWS
 
 ### Configure AWS Profile

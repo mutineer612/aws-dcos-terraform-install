@@ -1,4 +1,4 @@
-# dcos-terraform-install
+# aws-dcos-terraform-install
 This Terraform script is used to install and manage Mesosphere on AWS.  The script will setup the required AWS resources within a specified region and install the DC/OS software.      
 
 ## Setup
